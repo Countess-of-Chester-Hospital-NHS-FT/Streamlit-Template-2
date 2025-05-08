@@ -81,7 +81,7 @@ st.markdown(
     * **(Mostly) Ethical Practices:** We strive to handle all situations with the utmost care... for the living, at least.
     """
 )
-st.image("zombie2.png")
+st.image("zombie2.png", width=400)
 
 # --- Services ---
 st.header("🛠️ Our Comprehensive Range of Services")
@@ -103,7 +103,7 @@ st.write("Low on essential supplies? We can source and deliver non-perishable go
 st.subheader("Survivor Support & Training")
 st.write("New to the apocalypse? Our survivor support program offers essential training in self-defense, scavenging, and basic first aid (for non-bite related injuries).")
 
-st.image("zombie1.png")
+st.image("zombie1.png", width=400)
 
 # --- Contact Us ---
 st.header("📞 Contact Laura's Zombie Services Inc.")
@@ -120,7 +120,7 @@ with contact_form:
     enquiry = st.text_area("Your Enquiry:")
     submitted = st.form_submit_button("Send Enquiry")
     if submitted:
-        st.success(f"Your enquiry has been received, {name}. We will respond as soon as it's safe to do so (and we haven't run out of coffee). In the meantime take a really close look at the images above.")
+        st.success(f"Your enquiry has been received, {name}. We will respond as soon as it's safe to do so (and we haven't run out of coffee). In the meantime browse our pictures and stay vigilant.")
 
 st.markdown("---")
 st.markdown("**(Please note: Laura's Zombie Services Inc. is not responsible for any pre-existing zombie infections or sudden cravings for brains. We recommend maintaining a safe distance and double-checking all doors and windows.)**")
