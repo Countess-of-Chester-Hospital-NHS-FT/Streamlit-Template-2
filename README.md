@@ -1,4 +1,4 @@
-# Streamlit Template 1
+# Streamlit Template 2
 
 ### Status
 This template is for use in training
