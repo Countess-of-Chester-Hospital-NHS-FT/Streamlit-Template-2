@@ -63,7 +63,7 @@ st.markdown(
     We offer a comprehensive range of services designed to keep you, your loved ones, and your valuable (non-brain) assets safe and secure. Browse our offerings below to see how we can assist you in this new reality.
     """
 )
-st.image("zombie_services.png", width=400)
+st.image("img/zombie_services.png", width=400)
 #st.markdown('<div class="zombie-caption">Just another satisfied (and unbitten) client.</div>', unsafe_allow_html=True)
 
 # --- About Us ---
@@ -81,7 +81,7 @@ st.markdown(
     * **(Mostly) Ethical Practices:** We strive to handle all situations with the utmost care... for the living, at least.
     """
 )
-st.image("zombie2.png", width=400)
+st.image("img/zombie2.png", width=400)
 
 # --- Services ---
 st.header("🛠️ Our Comprehensive Range of Services")
@@ -103,7 +103,7 @@ st.write("Low on essential supplies? We can source and deliver non-perishable go
 st.subheader("Survivor Support & Training")
 st.write("New to the apocalypse? Our survivor support program offers essential training in self-defense, scavenging, and basic first aid (for non-bite related injuries).")
 
-st.image("zombie1.png", width=400)
+st.image("img/zombie1.png", width=400)
 
 # --- Contact Us ---
 st.header("📞 Contact Laura's Zombie Services Inc.")
